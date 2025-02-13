@@ -9,6 +9,7 @@ Dataset Link : https://www.kaggle.com/datasets/abhishekpathak337/rice-image-data
 
 Model deploy on the streamlit cloud : https://ricevarietyclassification-kx4zd8zwajsjbthjwyapjq.streamlit.app/
 
+
 # Features
 
 1. High Accuracy: Achieved 99.81% validation accuracy with minimal validation loss (0.01%).
