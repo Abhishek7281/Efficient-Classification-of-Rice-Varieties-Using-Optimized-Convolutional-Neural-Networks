@@ -5,6 +5,7 @@
 
 This project presents a deep learning-based approach using an optimized Convolutional Neural Network (CNN) model implemented with PyTorch for classifying five rice varieties: Arborio, Basmati, Ipsala, Jasmine, and Karacadag. The model achieves high accuracy while maintaining computational efficiency, making it a viable solution for agricultural automation.
 
+Dataset Link : https://www.kaggle.com/datasets/abhishekpathak337/rice-image-dataset
 
 # Features
 
