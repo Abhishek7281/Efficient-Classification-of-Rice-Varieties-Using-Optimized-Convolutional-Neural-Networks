@@ -32,88 +32,88 @@ This project presents a deep learning-based approach using an optimized Convolut
     
     2. Model Architecture:
     
-        i. Convolutional Layers for feature extraction
+        I. Convolutional Layers for feature extraction
         
-        ii. Batch Normalization & Max Pooling for better generalization
+        II. Batch Normalization & Max Pooling for better generalization
         
-        iii. Fully Connected Layers for final classification
+        III. Fully Connected Layers for final classification
         
-        iv. Softmax Activation for multi-class classification
+        IV. Softmax Activation for multi-class classification
   
     3. Training & Evaluation:
     
-        i. Optimizer: Adam (Adaptive Moment Estimation)
+        I. Optimizer: Adam (Adaptive Moment Estimation)
         
-        ii. Loss Function: Cross-Entropy Loss
+        II. Loss Function: Cross-Entropy Loss
         
-        iii. Epochs: 100
+        III. Epochs: 100
       
-        iv. Batch Size: 32
+        IV. Batch Size: 32
   
     4. Performance Evaluation
     
         The model was assessed using key metrics:
       
-          i. Accuracy: 99.81%
+          I. Accuracy: 99.81%
           
-          ii. Precision, Recall, F1-Score: High across all five classes
+          II. Precision, Recall, F1-Score: High across all five classes
           
-          iii. Confusion Matrix: Demonstrated strong classification performance
+          III. Confusion Matrix: Demonstrated strong classification performance
 
 # Hardware & Software Requirements
 
     Hardware:
   
-        i. Processor: Intel Core i7-4790M (3.60GHz)
+        I. Processor: Intel Core i7-4790M (3.60GHz)
         
-        ii. RAM: 8GB
+        II. RAM: 8GB
         
-        iii. GPU (Optional): Recommended for faster training
-  
+        III. GPU (Optional): Recommended for faster training
+
     Software:
 
-          i. Python 3.9
-          
-          ii. PyTorch
-          
-          iii. OpenCV
-          
-          iv. NumPy & Matplotlib
+      I. Python 3.9
+      
+      II. PyTorch
+      
+      III. OpenCV
+      
+      IV. NumPy & Matplotlib
 
 # Installation & Setup
   
-    i. Clone the repository:
+    I. Clone the repository:
     
         git clone https://github.com/your-repo/rice-classification.git
         cd rice-classification
     
-    ii. Install dependencies:
+    II. Install dependencies:
     
         pip install -r requirements.txt
     
-    iii. Run the training script:
+    III. Run the training script:
     
         python train.py
     
-    iv. Perform classification on new images:
+    IV. Perform classification on new images:
     
         python classify.py --image path_to_image.jpg
 
 # Applications
 
-    i. Agriculture & Farming: Automated rice quality assessment.
+    I. Agriculture & Farming: Automated rice quality assessment.
     
-    ii. Food Industry: Ensuring standardization of rice varieties.
+    II. Food Industry: Ensuring standardization of rice varieties.
     
-    iii. Supply Chain & Commerce: Streamlining rice sorting processes.
+    III. Supply Chain & Commerce: Streamlining rice sorting processes.
 
 # Future Enhancements
 
-    i. Deployment on mobile and IoT devices for real-time classification.
+    I. Deployment on mobile and IoT devices for real-time classification.
     
-    ii. Integration with cloud-based services for large-scale analysis.
+    II. Integration with cloud-based services for large-scale analysis.
     
-    iii. Expansion to classify more rice varieties with extended datasets.
+    III. Expansion to classify more rice varieties with extended datasets.
 
 <!-- Contributors
 
