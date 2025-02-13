@@ -72,13 +72,13 @@ This project presents a deep learning-based approach using an optimized Convolut
   
     Software:
 
-      i. Python 3.9
-      
-      ii. PyTorch
-      
-      iii. OpenCV
-      
-      iv. NumPy & Matplotlib
+          i. Python 3.9
+          
+          ii. PyTorch
+          
+          iii. OpenCV
+          
+          iv. NumPy & Matplotlib
 
 # Installation & Setup
   
