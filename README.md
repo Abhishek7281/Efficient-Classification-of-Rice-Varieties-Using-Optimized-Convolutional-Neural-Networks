@@ -20,84 +20,84 @@ This project presents a deep learning-based approach using an optimized Convolut
 
 # Dataset
 
-The dataset used consists of 75,000 images categorized into five rice varieties:
-
-Training Set: 52,500 images
-
-Validation & Test Set: 22,500 images
+  The dataset used consists of 75,000 images categorized into five rice varieties:
+  
+  Training Set: 52,500 images
+  
+  Validation & Test Set: 22,500 images
 
 # Methodology
 
-1. Data Preprocessing: Image resizing, normalization, and augmentation.
-
-2. Model Architecture:
-
-Convolutional Layers for feature extraction
-
-Batch Normalization & Max Pooling for better generalization
-
-Fully Connected Layers for final classification
-
-Softmax Activation for multi-class classification
-
-3. Training & Evaluation:
-
-i. Optimizer: Adam (Adaptive Moment Estimation)
-
-ii. Loss Function: Cross-Entropy Loss
-
-iii. Epochs: 100
-
-iv. Batch Size: 32
-
-4. Performance Evaluation
-
-The model was assessed using key metrics:
-
-i. Accuracy: 99.81%
-
-ii. Precision, Recall, F1-Score: High across all five classes
-
-iii. Confusion Matrix: Demonstrated strong classification performance
+  1. Data Preprocessing: Image resizing, normalization, and augmentation.
+  
+  2. Model Architecture:
+  
+    i. Convolutional Layers for feature extraction
+    
+    ii. Batch Normalization & Max Pooling for better generalization
+    
+    iii. Fully Connected Layers for final classification
+    
+    iv. Softmax Activation for multi-class classification
+  
+  3. Training & Evaluation:
+  
+    i. Optimizer: Adam (Adaptive Moment Estimation)
+    
+    ii. Loss Function: Cross-Entropy Loss
+    
+    iii. Epochs: 100
+  
+    iv. Batch Size: 32
+  
+  4. Performance Evaluation
+  
+    The model was assessed using key metrics:
+  
+      i. Accuracy: 99.81%
+      
+      ii. Precision, Recall, F1-Score: High across all five classes
+      
+      iii. Confusion Matrix: Demonstrated strong classification performance
 
 # Hardware & Software Requirements
 
-Hardware:
+  Hardware:
 
-i. Processor: Intel Core i7-4790M (3.60GHz)
+    i. Processor: Intel Core i7-4790M (3.60GHz)
+    
+    ii. RAM: 8GB
+    
+    iii. GPU (Optional): Recommended for faster training
 
-ii. RAM: 8GB
+  Software:
 
-iii. GPU (Optional): Recommended for faster training
-
-Software:
-
-i. Python 3.9
-
-ii. PyTorch
-
-iii. OpenCV
-
-iv. NumPy & Matplotlib
+    i. Python 3.9
+    
+    ii. PyTorch
+    
+    iii. OpenCV
+    
+    iv. NumPy & Matplotlib
 
 # Installation & Setup
 
-i. Clone the repository:
-
-git clone https://github.com/your-repo/rice-classification.git
-cd rice-classification
-
-ii. Install dependencies:
-
-pip install -r requirements.txt
-
-iii. Run the training script:
-
-python train.py
-
-iv. Perform classification on new images:
-
-python classify.py --image path_to_image.jpg
+  i. Clone the repository:
+  
+    git clone https://github.com/your-repo/rice-classification.git
+    cd rice-classification
+  
+  ii. Install dependencies:
+  
+    pip install -r requirements.txt
+  
+  iii. Run the training script:
+  
+    python train.py
+  
+  iv. Perform classification on new images:
+  
+    python classify.py --image path_to_image.jpg
 
 # Applications
 
@@ -127,9 +127,9 @@ Puneet Singh (IIT Indore) -->
 
 # Acknowledgments
 
-This research was supported by the Science and Engineering Research Board (SERB), Department of Science and Technology, Government of India (CRG/2021/001215).
+  This research was supported by the Science and Engineering Research Board (SERB), Department of Science and Technology, Government of India (CRG/2021/001215).
 
 # License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+  This project is licensed under the MIT License. See the LICENSE file for details.
 
